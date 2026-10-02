@@ -85,3 +85,10 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                 color = Color.Green
             )
 
+            Text(
+                text = "2024014061",
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
+
