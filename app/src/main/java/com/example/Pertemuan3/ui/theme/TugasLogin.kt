@@ -59,6 +59,7 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.White
             )
+            Spacer(modifier = Modifier.height(25.dp))
 
 
 
