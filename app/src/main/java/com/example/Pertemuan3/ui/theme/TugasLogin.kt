@@ -92,3 +92,16 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                 color = Color.White
             )
 
+            Spacer(modifier = Modifier.height(25.dp))
+
+            Image(
+                painter = profpic,
+                contentDescription = null,
+                modifier = Modifier
+                    .height(200.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
+        }
+    }
+}
