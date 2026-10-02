@@ -29,3 +29,7 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
     val background = painterResource(id = R.drawable.bgimage)
     val logo = painterResource(id = R.drawable.notasibalok  )
     val profpic = painterResource(id = R.drawable.newpic)
+
+    Box(
+        modifier = modifier.fillMaxSize()
+    ) {
