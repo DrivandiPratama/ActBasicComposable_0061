@@ -53,5 +53,12 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Green
             )
+            Text(
+                text = "Ini adalah halaman login",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
+
 
 
