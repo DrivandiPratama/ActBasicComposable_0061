@@ -72,6 +72,9 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(30.dp))
 
-
-
+            Text(
+                text = "Nama",
+                fontSize = 16.sp,
+                color = Color.Cyan
+            )
 
