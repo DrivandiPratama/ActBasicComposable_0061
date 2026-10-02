@@ -78,3 +78,10 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                 color = Color.Cyan
             )
 
+            Text(
+                text = "Drivandi Pratama",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Green
+            )
+
