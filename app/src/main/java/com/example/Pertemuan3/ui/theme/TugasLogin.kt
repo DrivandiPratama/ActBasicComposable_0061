@@ -61,5 +61,15 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
             )
             Spacer(modifier = Modifier.height(25.dp))
 
+            Image(
+                painter = logo,
+                contentDescription = null,
+                modifier = Modifier
+                    .height(150.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
+
+
 
 
