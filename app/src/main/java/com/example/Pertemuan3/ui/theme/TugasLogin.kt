@@ -40,3 +40,11 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
+
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 50.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+
