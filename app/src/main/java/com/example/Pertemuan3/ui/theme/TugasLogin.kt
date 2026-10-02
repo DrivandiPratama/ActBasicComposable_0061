@@ -47,4 +47,11 @@ fun TataletakTugas(modifier: Modifier = Modifier) {
                 .padding(top = 50.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Text(
+                text = "Login",
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Green
+            )
+
 
